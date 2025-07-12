@@ -7,7 +7,7 @@ if(isNaN(Size)){
 for (let i = 0; i < Size; i++){
     let row = '';
     for (let y = 0; y < Size; y++){
-       row += 'x';
+       row += 'X';
       
     }
     console.log(row);
