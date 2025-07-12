@@ -6,8 +6,10 @@ const b = Number(num2);
 
 if (isNaN(a) &&  isNaN(b) ){
     console.log('NaN');
-}
-function add(a,b){
+}else {
+    function add(a,b){
     console.log(a+b);
-}
+
 add(a,b);
+}
+}
